@@ -16,11 +16,12 @@ This serverless web application uses TensorFlow.js and Haar Cascade to track fac
 - TensorFlow.js
 - Haar Cascade (haarcascade.xml)
 - http-server (for local development)
+- FastAPI
 
 ## Project Structure
 - `index.html`: Main HTML file (includes embedded CSS and JavaScript)
 - `haarcascade.xml`: Haar Cascade file for face detection
-- `model/`: Directory containing TensorFlow.js model files
+- `models/`: Directory containing TensorFlow.js model files
 
 ## Setup and Local Development
 1. Clone the repository:
